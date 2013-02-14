@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jquery Custom File</title>
+<link href="customFile.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.customFile.js"></script>
+<script type="text/javascript">
+$(function(){
+$(".file").customFileInput({
+      'width'   : '250px', //width of button
+	  'height'	: '20px',  //height of text
+      'btnText' : 'Browse' //text of the button 
+	});
+})
+</script>
+</head>
+
+<body>
+<span class="file"><input type="file" /></span>
+</body>
+</html>

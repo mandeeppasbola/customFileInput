@@ -1,0 +1,32 @@
+{
+"name": "customFileInput",
+"title": "jQuery Custom File Input",
+"description": "jQuery plugin for creating custom file input field.",
+"keywords": [
+"FileInput",
+"customFileInput"
+],
+"version": "1.0.0",
+"author": {
+"name": "Mandeep Pasbola"
+},
+"maintainers": [
+{
+"name": "Mandeep Pasbola",
+"email": "mandeep.pasbola@gmail.com"
+}
+],
+"licenses": [
+{
+"type": "MIT",
+"url": "https://github.com/mandeeppasbola/customFileInput/blob/master/LICENSE-MIT"
+}
+],
+"bugs": "https://github.com/mandeeppasbola/customFileInput/issues",
+"homepage": "https://github.com/mandeeppasbola/customFileInput",
+"docs": "https://github.com/mandeeppasbola/customFileInput",
+"download": "",
+"dependencies": {
+"jquery": ">=1.7"
+}
+}
